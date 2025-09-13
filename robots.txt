@@ -1,1 +1,1 @@
-Sitemap: https://mukund-mpp.github.io/my-musings/sitemap.xml
+Sitemap: my-musings.mukundrb.com/sitemap.xml
