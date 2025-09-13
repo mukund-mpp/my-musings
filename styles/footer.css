@@ -1,0 +1,95 @@
+/* Footer styles */
+.footer {
+  background-color: var(--footer-background);
+  padding: 2rem 0 1.5rem;
+  margin-top: 4rem;
+  color: var(--footer-text);
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 0 auto 1.5rem;
+  padding: 0 2rem;
+  max-width: min(800px, 90vw);
+}
+
+.footer-link {
+  color: var(--footer-text);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.footer-link:hover, .back-to-top:hover {
+  color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+.footer-copyright {
+  color: var(--footer-text);
+  opacity: 0.8;
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+
+/* Yellow highlight effects throughout the site */
+.navbar-brand:hover {
+  color: var(--accent-color) !important;
+}
+
+.quarto-category:hover {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+.nav-link:hover {
+  color: var(--accent-color) !important;
+}
+
+/* Subtle yellow underline for links in content */
+article a:not(.nav-link):not(.footer-link):not(.back-to-top) {
+  text-decoration: none;
+  background-image: linear-gradient(transparent calc(100% - 2px), var(--accent-color) 2px);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease;
+}
+
+article a:not(.nav-link):not(.footer-link):not(.back-to-top):hover {
+  background-size: 100% 100%;
+}
+
+/* Yellow highlight for selected text */
+::selection {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+@media (max-width: 768px) {
+  .footer-links {
+    gap: 1rem;
+  }
+}
