@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>my-musings.mukundrb.com/about.html</loc>
+    <loc>https://my-musings.mukundrb.com/about.html</loc>
     <lastmod>2025-09-13T08:55:10.085Z</lastmod>
   </url>
   <url>
-    <loc>my-musings.mukundrb.com/posts/welcome/index.html</loc>
+    <loc>https://my-musings.mukundrb.com/posts/welcome/index.html</loc>
     <lastmod>2025-09-13T08:55:10.087Z</lastmod>
   </url>
   <url>
-    <loc>my-musings.mukundrb.com/posts/post-with-code/index.html</loc>
+    <loc>https://my-musings.mukundrb.com/posts/post-with-code/index.html</loc>
     <lastmod>2025-09-13T08:59:06.314Z</lastmod>
   </url>
   <url>
-    <loc>my-musings.mukundrb.com/index.html</loc>
+    <loc>https://my-musings.mukundrb.com/index.html</loc>
     <lastmod>2025-09-13T09:02:20.210Z</lastmod>
   </url>
 </urlset>
