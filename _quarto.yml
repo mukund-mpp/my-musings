@@ -3,7 +3,7 @@ project:
 
 website:
   description: "A blog about my musings on various topics."
-  site-url: my-musings.mukundrb.com # you must change this appropriately for RSS feeds to work properly
+  site-url: https://my-musings.mukundrb.com  # Added https:// prefix
   title: "My Musings"
   navbar:
     right:
