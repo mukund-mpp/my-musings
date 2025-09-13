@@ -1,1 +1,1 @@
-Sitemap: https://my-musings.mukundrb.com/sitemap.xml
+Sitemap: https://musings.mukundrb.com/sitemap.xml
